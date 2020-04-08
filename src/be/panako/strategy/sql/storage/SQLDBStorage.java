@@ -432,7 +432,6 @@ public class SQLDBStorage implements Storage {
 				try {
 					BasicDBList ls=(BasicDBList) iterator.next();
 					System.out.println(ls);
-
 					lh.matchTime = (int) ls.get(1);
 					lh.identifier = (int) ls.get(2);
 	
